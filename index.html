@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Birthday</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>Is Your Birthday Lucky?</h1>
+            <p><a href="#main">Scroll Down to Checkout</a></p>
+        </div>
+    </header>
+    <section id="main">
+        <div id="alertBox"><strong>Privacy Notice!</strong>
+            We do not store your data.
+            <button id="closeAlertBox">&#x2715</button>
+        </div>
+        <form action="#">
+            <h2>Enter Your Date of Birth and lucky number to continue...</h2>
+            <br>
+            <h3>Select your birth date:</h3>
+            <input id="datePicker" type="date" required>
+            <br>
+            <h3>Enter lucky number:</h3>
+            <input id="luckyNumber" type="number" min="1" step="1" required>
+            <br><br>
+            <button id="checkButton" type="button">Is my birthday lucky?</button>
+        </form>
+        <div id="result">
+            <br>
+        </div>
+    </section>
+    <footer>
+        <h4>CONNECT WITH ME</h4>
+        <ul class="social-links">
+            <li>
+                <a href="https://github.com/lorduttam"><img src="images/github.png" alt="My github"></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/uttam-sharma-55a588178/"><img src="images/linkedin.png"
+                        alt="My Linkedin"></a>
+            </li>
+            <li>
+                <a href="mailto:sharmaji.uttam@gmail.com"><img src="/images/mail.png" alt="Mail me"></a>
+            </li>
+            <li>
+                <a href="https://uttamsharma.me"><img src="/images/portfolio.png" alt="My portfolio"></a>
+            </li>
+        </ul>
+        <h5>© | 2021 | uttamsharma</h5>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

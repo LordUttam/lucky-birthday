@@ -1,0 +1,95 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Happy Monkey', cursive;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    width: 40%;
+    padding: 1rem 2rem;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#main {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto 30%;
+    padding: 1rem 2rem;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#alertBox {
+    padding: 0.5rem;
+    box-shadow: 0rem 0rem 1rem 0.5rem rgba(0, 0, 0, 0.4);
+    background-color: rgba(255,233,208,0.5);
+    color: red;
+}
+
+#closeAlertBox {
+    background-color: transparent;
+    border: none;
+    transition: all 0.1s;
+}
+
+#closeAlertBox:hover {
+    transform: scale(1.5);
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border-width: 0;
+}
+
+#checkButton {
+    background-color: wheat;
+    border-radius: 10000px;
+    border-width: 0;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+footer img {
+    width: 2.25rem;
+}
+
