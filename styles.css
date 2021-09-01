@@ -79,17 +79,17 @@ footer {
     text-align: center;
 }
 
-.social-links ul {
+.social-links {
     list-style: none;
-    padding: 0;
+    padding: 0px;
 }
 
 .social-links li {
     display: inline-block;
-    padding: 1rem;
+    padding: 0 1rem 1rem 0;
 }
 
 footer img {
-    width: 2.25rem;
+    width: 2.5vw;
 }
 
