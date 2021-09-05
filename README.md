@@ -15,3 +15,4 @@ And we will show your birthdate is lucky or not on the same page.
 ### Privacy Notice:
 We do not store or share your personal data and information.
 
+See it working live on Netlify [here](https://uttam-lucky-birthday.netlify.app/)
