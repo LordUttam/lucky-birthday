@@ -26,6 +26,10 @@ header {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
+.title a {
+    text-decoration: none;
+}
+
 #main {
     height: 90vh;
     display: flex;
