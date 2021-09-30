@@ -31,7 +31,7 @@ checkButton.addEventListener("click", () => {
   let luckyNumber = parseInt(luckyNumberEntry.value);
   let dob = parseInt(datePicker.value.replace(/-/g, ""));
 
-  if (luckyNumber && dob) {
+  if (luckyNumber >= 0 && dob) {
     luckyOrNot(luckyNumber, dob);
   } else {
     result.innerHTML =
